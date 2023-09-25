@@ -11,10 +11,10 @@ namespace Oxide.Plugins
     class TrainingRestrict : CovalencePlugin
     {
 		
-		private const string permissionName = "trainingrestrict.active";
+	private const string permissionName = "trainingrestrict.active";
         private TrainingRestrictConfig config;
 		
-		void Init()
+	void Init()
 		{
 			permission.RegisterPermission(permissionName, this);
             LoadConfig();
@@ -56,7 +56,7 @@ namespace Oxide.Plugins
 
         class TrainingRestrictConfig
     {
-        public bool DisableItemPickupByAdmins { get; set; }
+       	public bool DisableItemPickupByAdmins { get; set; }
         public bool DisableLootingPlayersByAdmins { get; set; }
         public bool DisableLootingEntitiesByAdmins { get; set; }
         public bool DisableDroppingActiveItemByAdmins { get; set; }
