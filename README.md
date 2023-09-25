@@ -8,7 +8,8 @@
 
 # Introduction
 
-The primary feature of this plugin is to help restrict access to items in game newer staff members while they are being trained and building trust. You can also use this if you would like your staff to never be able to have access to these abilities depending on your internal policies.
+The primary feature of this plugin is to help restrict access to items in game for newer staff members while they are being trained and building trust. 
+You can also use this if you would like your staff to never be able to have access to these abilities depending on your internal policies.
 
 # Permission
 
