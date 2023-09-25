@@ -15,6 +15,7 @@ The primary feature of this plugin is to help restrict access to items in game n
 - ```trainingrestrict.active``` -- Activates the protections for that user/group and disables their ability to interact with the protected entities.
 
 # Configuration
+Default configuration:
 
 ```json
 {
