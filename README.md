@@ -4,6 +4,7 @@
 - Restricts looting players
 - Restricts looking crates, boxes, and containers
 - Prevents admins active item from dropping into the world on death
+- Config file to enable/disable desired features
 
 # Introduction
 
