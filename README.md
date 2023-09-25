@@ -16,7 +16,7 @@ The primary feature of this plugin is to help restrict access to items in game n
 
 # Configuration
 
-```cs
+```json
 {
   "DisableDroppingActiveItemByAdmins": true,
   "DisableItemPickupByAdmins": true,
