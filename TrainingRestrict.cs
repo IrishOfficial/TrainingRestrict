@@ -41,7 +41,7 @@ namespace Oxide.Plugins
         
 		bool CanDropActiveItem(BasePlayer player)
 		{
-            if (player.IsAdmin)
+            if (player.IsAdmin && permission.UserHasPermission(player.UserIDString, permissionName))
                 return false;
             return true;
 		}
