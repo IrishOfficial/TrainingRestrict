@@ -39,11 +39,11 @@ namespace Oxide.Plugins
             return null;
         }
         
-		bool CanDropActiveItem(BasePlayer player)
-		{
-            if (player.IsAdmin && permission.UserHasPermission(player.UserIDString, permissionName))
-                return false;
-            return true;
-		}
+	bool CanDropActiveItem(BasePlayer player)
+	{
+           if (player.IsAdmin && permission.UserHasPermission(player.UserIDString, permissionName))
+               return false;
+           return true;
+	}
     }
 }
